@@ -1,10 +1,7 @@
 # m3u8-to-mp4
 
 This module is forked from [m3u8-to-mp4](https://github.com/furkaninanc/m3u8-to-mp4) created by [furkaninanc](https://github.com/furkaninanc).
-
-This module helps you convert an M3U8 file to an MP4 file easily using ffmpeg/node.js
-
-This Fork Supports for displaying progress during convert
+This Fork Supports for export of progress during convert
 
 ## Installation
 

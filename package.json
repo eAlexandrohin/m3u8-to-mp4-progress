@@ -1,33 +1,28 @@
 {
-  "name": "@jsoner/m3u8-to-mp4",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "1.0.2",
-  "description": "This module helps you convert an M3U8 file to an MP4 file easily using ffmpeg/node.js",
+  "name": "m3u8-to-mp4-progress",
+  "version": "1.0.4",
+  "description": "fork of @jsoner/m3u8-to-mp4",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsoner-wong/m3u8-to-mp4.git"
+    "url": "git+https://github.com/eAlexandrohin/m3u8-to-mp4-progress.git"
   },
   "keywords": [
+    "nodejs",
     "m3u8",
-    "to",
     "mp4",
-    "converter",
-    "nodejs"
+    "converter"
   ],
+  "author": "ealexandrohin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsoner-wong/m3u8-to-mp4/issues"
+    "url": "https://github.com/eAlexandrohin/m3u8-to-mp4-progress/issues"
   },
-  "homepage": "https://github.com/jsoner-wong/m3u8-to-mp4",
+  "homepage": "https://github.com/eAlexandrohin/m3u8-to-mp4-progress#readme",
   "dependencies": {
-    "fluent-ffmpeg": "^2.1.2",
-    "fs": "^0.0.1-security",
-    "single-line-log": "^1.1.2"
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
